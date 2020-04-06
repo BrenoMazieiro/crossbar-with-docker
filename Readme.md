@@ -5,7 +5,7 @@ This repository is a example showing how to use crossbar with docker and docker-
 # Install instructions 
 
 ## 1 - Build nodejs images
-docker build -t nodejs-serve registry/nodejs-serve
+`docker build -t nodejs-serve registry/nodejs-serve`
 
 ## 2 - Update /etc/hosts
 
@@ -17,7 +17,7 @@ docker build -t nodejs-serve registry/nodejs-serve
 ```
 
 ## 3 - Start containers
-docker-compose up
+`docker-compose up`
 
 ## 4 acess links
 
